@@ -206,3 +206,4 @@ else:
         
         # แสดงผลกล่อง GPA ล่างสุดตามสไตล์กรอบแถวสีม่วงเด่นชัด
         st.markdown(f"<div class='gpa-box'>🎓 เกรดเฉลี่ยรวมสะสมของคุณ (GPA) คือ: {mean_gpa:.2f}</div>", unsafe_allow_html=True)
+        #py -m streamlit run app.py
